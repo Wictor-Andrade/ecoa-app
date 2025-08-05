@@ -1,0 +1,52 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": true,
+    "importHelpers": true,
+    "isolatedModules": true,
+    "lib": [
+      "es2022"
+    ],
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "es2022",
+    "customConditions": [
+      "development"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "apps/api/src/*"
+      ],
+      "@common/*": [
+        "apps/api/src/common/*"
+      ],
+      "@config/*": [
+        "apps/api/src/config/*"
+      ],
+      "@core/*": [
+        "apps/api/src/core/*"
+      ],
+      "@generated/*": [
+        "apps/api/src/generated/*"
+      ],
+      "@global/*": [
+        "apps/api/src/global/*"
+      ],
+      "@jobs/*": [
+        "apps/api/src/jobs/*"
+      ],
+      "@modules/*": [
+        "apps/api/src/modules/*"
+      ]
+    }
+  }
+}
